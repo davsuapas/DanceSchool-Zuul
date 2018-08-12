@@ -1,6 +1,6 @@
 spring:
   application:
-    name: zuulschool
+    name: zuul-school
   profiles:
     active: development
 
