@@ -26,7 +26,7 @@
 		<distribution.management.release.id>artifactory-local</distribution.management.release.id>
 		<distribution.management.release.url>http://localhost:8081/artifactory/libs-release-local</distribution.management.release.url>
 		<!-- KUBERNETES -->
-		<DOCKER_REGISTRY_ORGANIZATION>elipcero</DOCKER_REGISTRY_ORGANIZATION>
+		<DOCKER_REGISTRY_ORGANIZATION>danceschool</DOCKER_REGISTRY_ORGANIZATION>
 		<DOCKER_SERVER_ID>docker-repo</DOCKER_SERVER_ID>
 		<DOCKER_REGISTRY_URL>https://index.docker.io/v1/</DOCKER_REGISTRY_URL>
 	</properties>
