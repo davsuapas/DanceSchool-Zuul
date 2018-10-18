@@ -4,8 +4,20 @@ spring:
   profiles:
     active: development
 
+---
+
+spring:
+  profiles: development
+
   cloud:
     config:
-      discovery:
-        enabled: true
-        serviceId: configurationschool
+      uri: http://localhost:8888
+
+---
+
+spring:
+  profiles: kubernetes
+
+  cloud:
+    config:
+      uri: http://configuration-school:8888
